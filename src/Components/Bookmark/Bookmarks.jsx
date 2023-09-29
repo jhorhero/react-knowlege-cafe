@@ -5,7 +5,7 @@ const Bookmarks = ({bookmarks,readingmarks}) => {
     return (
         <div className='md:w-1/3 bg-gray-300 ml-4 mt-4'>
             <div>
-                <h3 className="text-4xl text-center border-2">Reading-Time:{readingmarks}</h3>
+                <h3 className="text-4xl text-center rounded-2xl bg-orange-400 border-2">Reading-Time:{readingmarks}</h3>
             </div>
             <h2 className="text-3xl text-center ">Bookmarks Blog: {bookmarks.length}</h2>
             {
